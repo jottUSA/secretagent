@@ -148,4 +148,9 @@ span.description {
   height: 5rem;
   color: white;
   background-color: black;
+  padding: 5em 0;
+}
+.footer .container {
+  text-align: left;
+  margin-left: 37px;
 }
