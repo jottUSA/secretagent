@@ -1,3 +1,142 @@
+html {
+  font-size: 18px;
+  font-family:Helvetica, sans-serif;
+  line-height: 1.15;
+}
+body {
+  width: 960px;
+  margin: 0;
+  line-height: 1.4em;
+}
 h1 {
-  font-size: 100px;
+  font-family: helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.header {
+  background-color: black;
+  color: white;
+}
+.header img {
+  height: 1.5rem;
+  margin-left: .5rem;
+  margin-right: 1rem;
+}
+.header span {
+  margin-top: .66rem;
+  margin-bottom: .66rem;
+}
+.header .container {
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+.main.banner {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  position: relative;
+  background-position: center;
+}
+
+.main.banner, .container .headline {
+  background-color: black;
+}
+.main.banner, .container {
+  padding: 12px 0 12px 0.5em;
+  display: flex;
+  margin: 0 auto;
+}
+.main.banner .container {
+  height: 200px;
+  margin-top: 9rem;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.headline {
+  width: 20em;
+  padding: 2em 3em;
+  top: 9em;
+  text-size-adjust: 100%;
+  display: block;
+}
+.headline h4 {
+color: white;
+font-family: helvetica;
+font-size: 1rem;
+font-weight: bold;
+margin-top: 2rem;
+}
+.headline h1 {
+color: white;
+margin-top: .25em;
+}
+.nav .container {
+  background-color: firebrick;
+  max-width: 960px
+  margin: 0 auto;
+}
+.nav ul {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .75em 0;
+  list-style: none;
+}
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+  background-color: white;
+  align-items: center;
+}
+.products .container{
+  display: flex;
+}
+.product-image {
+  border: 4px solid black;
+  padding: 2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+span.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: .5em;
+  flex-direction: row;
+}
+.product-image img{
+  max-width: 8em;
+}
+.business-info {
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+  width: 35%;
+}
+.info {
+}
+.info span {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+}
+.footer {
+  Margin-top: 72px;
+  height: 5rem;
+  color: white;
+  background-color: black;
 }
